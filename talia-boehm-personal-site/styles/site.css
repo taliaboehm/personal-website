@@ -1,0 +1,310 @@
+
+html {
+  width: 100%;
+  max-width: 100%;
+}
+body {
+  color: black;
+    background-color: #e1e9f0;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  width: 100%;
+  max-width: 100%;
+
+
+}
+
+
+/* main heading for each page */
+
+h1 {
+
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-stretch: expanded;
+  width: 100%;
+
+  font-size: 300%;
+  text-shadow: 1px 1px black;
+
+}
+
+h2 {
+  color: white;
+  font-style: oblique;
+}
+
+
+h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 150%;
+  border-bottom: 3px solid #fa9773;
+
+}
+
+h4 {
+color: white;
+}
+
+
+h5 {
+  color: black;
+  font-size: 300%;
+  text-shadow: 1px 1px #1c2329;
+}
+
+
+/** academics specific div **/
+.favCourses {
+  background-color: #e1e9f0;
+}
+
+em {
+  font-style: italic;
+}
+
+
+
+.kidney {
+  display: flex;
+  background-color: #fa9773;
+  width: 100%;
+
+}
+
+.kidney p {
+  padding: 40px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+ul, li, .favoriteThings{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.favoriteThings {
+  display: flex;
+}
+
+
+.music {
+  color: black;
+  font-size: 120%
+}
+
+/* creating flexbox and adding border under nav */
+nav {
+  background-color: #1c2329;
+  display: flex;
+    height: 10%;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 7px solid #fa9773;
+  justify-content: space-between;
+  padding: 7px;
+
+}
+
+/* adjusting nav list */
+.menu {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* adding padding to individual list elements in nav */
+.menu li a {
+  padding: 15px;
+}
+
+/* removing left border from nav */
+.menu li{
+  align-items: center;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+  text-shadow: .5px .5px black;
+}
+
+nav h1 {
+  margin: 5px;
+}
+/*centers elements*/
+.center {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+
+}
+
+
+
+
+
+/* creating flexbox for all welcome info */
+.welcome {
+
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 35px;
+  background-color: #fa9773;
+}
+
+/* changing nav links format */
+.menu a{
+  color: inherit;
+  text-decoration: none;
+}
+#coverpic {
+  display: flex;
+    background-image: url('senior_picture.jpg');
+
+  /* margin: 25%;
+  margin-bottom: 0px;
+  margin-top: 35%; */
+ height: 70%;
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* text-align: left; */
+  /* padding-left: 5%; */
+
+
+}
+
+#coverpic h1 {
+  display: flex;
+  padding: 25%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+  padding-top: 7%;
+  /* margin: 25%; */
+  margin-right: 70%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+  /* padding-right: */
+  /* margin-left: 0px; */
+  width: auto;
+}
+
+/* increasing line spacing */
+.welcome p {
+  line-height: 1.6;
+  font-size: 120%;
+
+}
+
+/* changing layout */
+.welcomeMsg {
+  padding: 25px;
+  background-color: #e1e9f0;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  border-top: 7px solid #fa9773;
+  padding-top: 6px;
+  padding-bottom:6px;
+  background: none;
+  color: black;
+  background-color: #e1e9f0;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+/* styling footer */
+footer p {
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+
+
+
+/* decreasing source font size */
+cite {
+  font-size: 20%;
+}
+
+/* about me content on top left */
+.aboutLeft {
+  display: flex;
+  flex-direction: row;
+  background-color: #e1e9f0;
+  width: auto;
+}
+
+.aboutBlurb {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-right: 70px;
+}
+
+.aboutBlurb p {
+  line-height: 20pt;
+}
+
+.aboutLeft img{
+
+  padding: 5%;
+  height: 813px;
+  padding-bottom: 0px;
+}
+
+.aboutLeft h5 {
+  padding: 15px;
+  margin: 20px;
+  padding-left: 0px;
+  border-bottom: 3px solid black;
+
+}
+/* about me content on top right */
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+/* styling about sidebar content */
+.aboutRight p {
+  color: white;
+  font-size: 70%;
+  margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+/* about me: personal picture design/ layout */
+.favoriteThings {
+  display: flex;
+  flex-direction: row;
+  background-color: #fa9773;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
